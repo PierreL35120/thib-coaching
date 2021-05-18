@@ -1,0 +1,20 @@
+@media screen and (max-width: 1024px) {
+#navbar{
+	position: relative;
+	margin-top: 1rem;
+	}
+	.hr_logo1{
+		display: none !important;
+	}
+	#logo{
+		height: 150px;
+	}
+	.menu_responsive{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.banniere{
+		margin-top: 1rem;
+	}
+}
