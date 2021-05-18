@@ -1,0 +1,335 @@
+@import 'Queries.css';
+
+/* #f06522;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f8f8e6 ;
+  color: #111331ff;
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.police_number {
+  font-family:Arial, Helvetica, sans-serif;
+  color: #111331ff;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+/*-------------HEADER-------------*/
+
+header {
+  background-size: cover;
+}
+
+#logo {
+  height: 210px;
+  width: auto;
+  display: block;
+  margin: auto;
+  transition: .4s;
+}
+
+.hr_logo1{
+  border: #f06522 1px solid;
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 85px;
+}
+
+.logo_flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo_flex img{
+  background-color: #f8f8e6;
+  z-index: 5;
+  border-radius: 100%;
+}
+
+.main_nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar{
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+ background-color: #f8f8e6;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.banniere {
+  margin-top: 15rem;
+  background-color: #f06522;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  background-image: url(images/GOPR2047.JPG);
+  background-position: center;
+  background-size: 100%;
+}
+
+
+.titre_H1 {
+  word-spacing: 15px;
+  font-weight: 100;
+  font-size: 250%;
+  font-family: "Sorts Mill Goudy", serif;
+  margin-left: -50%;
+}
+
+
+/*----------------TITRES----------------*/
+
+
+h2 {
+  text-align: center;
+  color: #f06522;
+  word-spacing: 10px;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 222%;
+  border-bottom: 4px solid #f06522;
+  line-height: 0.1em;
+  margin: 100px 3vw;
+}
+
+h2 span {
+  background:  #f8f8e6;
+  padding: 0 10px;
+}
+
+main h3 {
+  margin-bottom: 2.5vw ;
+  border-bottom: #f06522 1px solid;
+}
+
+/*---------------PARAGRAPHES--------------------*/
+
+.partenaires{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3vh 0;
+  text-align: center;
+}
+
+
+p {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.text_orange {
+  color: #f06522;
+  font-weight: bold;
+}
+
+.affichage_flex{
+  width: 45vw;
+}
+
+.display_flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.antoine_corbel{
+  width: 40vw;
+  text-align: left;
+}
+
+.texte_centre{
+  text-align: center;
+}
+
+/*-------------IMAGES--------------*/
+
+.diplome{
+margin-top: 3rem;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+.brevet{
+  width:23vw;
+  transition: .4s;
+  box-shadow: 6px 4px 8px rgb(199, 199, 199);
+}
+
+.carte_pro{
+  width: 20vw;
+  transition: .4s;
+  border-radius: 0.4rem;
+  box-shadow: 6px 4px 8px rgb(199, 199, 199);
+}
+
+.brevet:hover,
+.carte_pro:hover{
+  transform: scale(1.5);
+}
+
+.contact_photo{
+  width: 20vw;
+  border-radius: 0.3rem;
+  box-shadow: 6px 4px 8px rgb(199, 199, 199);
+}
+
+.photo_main{
+  width: 35vw;
+  border-radius: 0.3rem;
+  box-shadow: 6px 4px 8px rgb(199, 199, 199);
+  
+}
+
+.prestation_photos{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.prestation_photos img{
+  width: 20vw;
+  border-radius: 0.3rem;
+  margin: auto;
+  box-shadow: 6px 4px 8px rgb(199, 199, 199);
+}
+
+.prestation_photo_exterieur{
+  width: 30vw !important;
+  box-shadow: 6px 4px 8px rgb(199, 199, 199);
+}
+
+.photo_profil{
+  width: 30%;
+  display: flex;
+  margin-top: 5rem;
+  box-shadow: 6px 4px 8px rgb(199, 199, 199);
+}
+
+.partenaires_photos{
+ 
+  border-radius: 0.3rem;
+}
+
+.osteo{
+  width: 20vw;
+  box-shadow: 6px 4px 8px rgb(199, 199, 199);
+}
+
+.basic{
+  width: 33vw;
+  box-shadow: 6px 4px 8px rgb(199, 199, 199);
+}
+
+
+.icon{
+  width: 3rem;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.icon:hover{
+  transform: scale(1.3);
+}
+
+/*-----------BOUTONS-----------------*/
+
+a:link,
+a:visited {
+  color: #111331ff;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+.ancre:hover{
+  color: #f06522;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #f06522;
+}
+
+.co:hover{
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #fff;
+}
+
+
+/*-----------FOOTER--------------*/
+
+.footer {
+  margin-top: 40px;
+  background-color: #f06522;
+  height: 248px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_contact {
+  margin-left: 3%;
+
+}
+
+.services {
+  font-size: 145%;
+  margin-bottom: 3%;
+  font-family: "Sorts Mill Goudy", serif;
+  
+}
+
+.main_nav_contact {
+  line-height: 145%;
+  list-style: none;
+}
+
+.reseaux {
+  padding-right: 1%;
+  font-size: 120%;
+  font-family: "Sorts Mill Goudy", serif;
+  text-align: center;
+}
+
+.reseaux_footer{
+  height: 3rem;
+}
+
+.logo_footer {
+  height: 200px;
+  width: auto;
+}
+
